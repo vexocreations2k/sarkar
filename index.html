@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sarkar Infinite</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Sarkar Infinite</h1>
+  <p class="muted">You lead a fictional state government. Make decisions, keep the people happy, win elections, and keep going for as long as you can.</p>
+
+  <div id="top"><span id="term"></span><span id="month"></span><span id="score"></span></div>
+
+  <div id="stats"></div>
+
+  <section id="card" aria-live="polite">
+    <h2 id="title"></h2>
+    <p id="text"></p>
+    <div id="choices"></div>
+    <p id="last" class="muted"></p>
+  </section>
+
+  <section id="over" hidden>
+    <h2>Your government has fallen</h2>
+    <p id="why"></p>
+    <p id="final"></p>
+    <button id="again" type="button">Start a new government</button>
+  </section>
+
+  <p class="muted small">All states, events and parties are fictional. Best run is saved on this device.</p>
+</main>
+<script src="game.js"></script>
+</body>
+</html>
